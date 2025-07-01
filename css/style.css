@@ -1,0 +1,177 @@
+/* ============================================================ */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.input-group input{
+  outline: none;
+}
+
+.custom-input .btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 2% 4%;
+  background-color: #009ad8;
+}
+
+/* ================== Navbar Style ================== */
+.bg-body-tertiary {
+  background-color: #1e202b !important;
+}
+
+/* -------- Navbar Logo Style -------- */
+nav .nav-text .main-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+nav .nav-text .sec-text {
+  font-size: 10px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+/* ------------------------------- */
+
+.nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.navbar-nav {
+  margin: 20px;
+  background-color: #262936;
+  border-radius: 10px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  --bs-navbar-active-color: #009ad8;
+}
+
+.navbar-nav .nav-link {
+  --bs-nav-link-hover-color: #009ad8;
+}
+
+/* ================== Weather Body Style ================== */
+/* -------- Weather Body bg Style -------- */
+.weather-body {
+  background-image: url(./../images/bg-image.jpg);
+  position: relative;
+  background-size: cover;
+  z-index: 0;
+}
+
+.weather-body .weather-layer {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+/* ------------------------------- */
+
+.weather-days {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.weather-item {
+  background-color: #323544;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.weather-item .item-date {
+  background-color: #1c1e2b;
+  margin: 0;
+}
+
+.item-date p {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* -------- Today's Weather Style -------- */
+.weather-item h1 {
+  opacity: 1;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.weather-city {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.degree-text {
+  color: #009ad8;
+}
+
+.weather-details {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.weather-details img {
+  width: 20px;
+  height: 20px;
+}
+/* ------------------------------- */
+/* -------- Other Days' Weather Style -------- */
+.weather-details-next h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.weather-details-next p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* ================== Footer Style ================== */
+footer {
+  background-color: #262936;
+}
+
+.custom-input {
+  background-color: #1e202b;
+  position: relative;
+}
+
+.footer-icons i {
+  background-color: #1e202b;
+  color: #009ad8;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background-color 0.5s, color 0.5s ;
+}
+
+.footer-icons i:hover {
+  background-color: #009ad8;
+  color: #ffffff;
+}
+
+.footer-icons .fa-facebook-f {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+footer p {
+  color: #ffffff;
+  opacity: 0.7;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+/* ============================================================ */

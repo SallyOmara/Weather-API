@@ -12,8 +12,6 @@ async function getCity(term) {
   let weatherDetails = response.forecast.forecastday;
   let currentDetail = response.current;
 
-  console.log(weatherDetails);
-
   displayWeather(cityLocation, weatherDetails, currentDetail);
 }
 

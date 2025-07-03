@@ -5,7 +5,7 @@
 getCity("Alexandria"); // --> Default City
 async function getCity(term) {
   let promise = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=b9f9f0c0abe84161980132146250107&q=${term}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=b9f9f0c0abe84161980132146250107&q=${term}&days=3`
   );
   let response = await promise.json();
   let cityLocation = response.location;
